@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+    .header{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+.header h1{
+    display: inline-block;
+    font-size: 48px;
+}
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 30px;
+}
+.header div ul{
+    list-style: none;
+}
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+ a{
+    color: whitesmoke;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 625px;
+    margin-top: -400px;
+}
+div img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.contact{
+    padding: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    color: darkcyan;
+}
+.contact h2{
+    display: inline-block;
+    font-size: 48px;
+}
+.contact div{
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 25px;
+    text-align: center;
+}
+.contact p{
+    flex-wrap:inline-start;
+    color: darkcyan;
+}
+.contact a{
+    color: darkcyan;
+}
+.about{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    color: darkcyan;
+    max-width: f;
+}
+.worktype{
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    color: darkcyan;
+    max-height: 40px;
+}
+.worktype h2{
+    display: inline-block;
+    font-size: 48px;
+}
+.worktype a{
+    color: darkcyan;
+    font-size: 30px;
+}
+.worktype img{
+    max-width: 600px;
+    max-height: 600px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    min-width: 600px;
+  min-height: 400px;
+}
+  
+  .overlay-text {
+    position: absolute;
+    top: 25%; 
+    left: 40%; 
+    transform: translate(-220%, 400%); 
+    background-color: darkcyan; 
+    color: darkcyan; 
+    padding: 10px 20px; 
+    font-size: 48px; 
+    text-align: center;
+  }
+  .overlay-text2 {
+    position: absolute;
+    top: 25%; 
+    left: 40%; 
+    transform: translate(20%, 405%); 
+    background-color: darkcyan; 
+    color: whitesmoke; 
+    padding: 10px 20px; 
+    font-size: 48px; 
+    text-align: center;
+  }
+  .overlay-text3 {
+    position: absolute;
+    top: 25%; 
+    left: 40%; 
+    transform: translate(230%, 405%); 
+    background-color: darkcyan; 
+    color: whitesmoke; 
+    padding: 10px 20px; 
+    font-size: 48px; 
+    text-align: center;
+  }
+.body-width{
+    display:inline-block;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkcyan;
+    color: whitesmoke;
+}
